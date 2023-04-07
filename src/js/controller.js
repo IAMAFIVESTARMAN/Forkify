@@ -41,7 +41,7 @@ if (module.hot) {
 document.querySelector('.header__logo').addEventListener('click', function () {
   let url = window.location.href;
   window.history.pushState(null, '', url);
-  location.reload();
+  // location.reload();
 });
 const controlRecipe = async function () {
   try {
