@@ -25,14 +25,24 @@ if (module.hot) {
 
 ///////////////////////////////////////
 
-document.querySelector('.header').addEventListener('click', function (e) {
-  const el = e.target.className;
-  if (el === 'header__logo') {
-    window.history.pushState(null, '', 'http://localhost:1234/');
-    location.reload();
-  }
-});
+// document.querySelector('.header').addEventListener('click', function (e) {
+//   // e.preventDefault();
+//   let url = window.location.href;
+//   console.log(typeof url);
+//   const el = e.target.className;
+//   if (el === 'header__logo') {
+//     window.history.pushState(null, '', url);
+//     // location.reload();
+//   }
 
+//   console.log(window.location.href);
+// });
+
+document.querySelector('.header__logo').addEventListener('click', function () {
+  let url = window.location.href;
+  window.history.pushState(null, '', url);
+  location.reload();
+});
 const controlRecipe = async function () {
   try {
     const id = window.location.hash.slice(1);
