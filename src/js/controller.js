@@ -38,11 +38,11 @@ if (module.hot) {
 //   console.log(window.location.href);
 // });
 
-document.querySelector('.header__logo').addEventListener('click', function () {
-  let url = window.location.href;
-  window.history.pushState(null, '', url);
-  // location.reload();
-});
+// document.querySelector('.header__logo').addEventListener('click', function () {
+//   let url = window.location.href;
+//   window.history.pushState(null, '', url);
+//   // location.reload();
+// });
 const controlRecipe = async function () {
   try {
     const id = window.location.hash.slice(1);
