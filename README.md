@@ -1,6 +1,6 @@
 #Forkify - A Recipe Finding Web app 
 
-[https://tanviroy-forkify.netlify.app/](https://findmyforkify.netlify.app)
+Preview (https://findmyforkify.netlify.app/)
 
 Description
  Forkify is a recipe finding web application which uses data from the Forkify API. While it is a fairly basic web application, it can be used as a guide to cook one's favorite dish. Beyond accessing recipes from different sources online, it also provides information on the number and amount of ingredients needed to build a specific dish according to the number of people to serve. 
